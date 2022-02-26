@@ -1,0 +1,82 @@
+.container {
+  margin-top: 65px;
+}
+
+.contactCard {
+  background-color: #eaefff;
+}
+
+.contactCardHeading {
+  font-size: 18px;
+  color: #414047;
+  line-height: 22px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.webCard {
+  position: relative;
+  background-color: #885fff;
+  height: 100%;
+}
+
+.webCard:after {
+  content: url(/images/ContactShape.svg);
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+}
+.webCardHeading {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 22px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.webCardButton {
+  box-shadow: none;
+  background-color: #18d7a9;
+  border-radius: 10px;
+  font-size: 16px;
+  text-transform: inherit;
+  margin-top: 15px;
+}
+
+.nftCard {
+  position: relative;
+  background: #f7e9ff;
+}
+
+.nftCard:after {
+  content: url(/images/WebShape.svg);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nftHeading {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: -0.04em;
+  color: #414047;
+}
+
+.nftCardButton {
+  background: #885fff;
+  border-radius: 10px;
+  max-width: 180px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+  text-transform: inherit;
+  font-size: 18px;
+  letter-spacing: -0.408px;
+  font-weight: 600;
+}
